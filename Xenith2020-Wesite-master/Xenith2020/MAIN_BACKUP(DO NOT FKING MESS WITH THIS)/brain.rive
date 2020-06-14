@@ -1,0 +1,304 @@
+! version = 2.0
+
+! sub what's = what is
+! sub good-bye = goodbye
+! sub whats = what is
+! sub how you doin = how are you
+! sub how you doin' = how are you
+! sub whatcha = what are you
+! sub sup = hello
+! sub what up boy = what is up
+! sub what's up boy = what is up
+! sub in-charge = incharge
+! sub in charge = incharge
+! sub okay = ok
+! sub k = ok
+! sub u = you
+! sub ur = your
+! sub d = the
+! sub who's = who is
+! sub whos = who is
+! sub game-show = gameshow
+! sub mother-fucker = motherfucker
+! sub mother fucker = motherfucker
+! sub sister-fucker = sisterfucker
+! sub sister fucker = sisterfucker
+! sub don't = dont
+! sub st = saint
+! sub st. = saint
+! sub xavier's = xaviers
+! sub gr8 = great
+! sub one's = ones
+! sub buh-bye = buhbye
+! sub ta-ta = tata
+! sub hiiii = hi
+! sub hii = hi
+! sub hiii = hi
+
++ hello bot
+- Hey, human
+
++ [*] (are you a male or a female|gender|gay|lesbian|bisexual|male|female) [*]
+- I am a Helping Bot. Make of it whatever you want.
+
++ (hello|hola) [*]
+- Hey! Hope you are well{weight=4}
+- Hola there! Hope everything is fine with you.{weight=3}
+- Hello, Anything i can help you with? {weight=3}
+
++ hey[*] [*]
+- Hello, Anything i can help you with? 
+
++ hi[*] [*]
+- Hey
+
++ [*] (how|what about|and) you [*]
+- I am great. Thanks for asking me!
+
++ [*] (your name|who are you) [*] 
+- My name is Gip. It stands for Glitches Induce Perfection. {weight=2}
+- Well, my name is GIP. It means Glitches Induce Perfection {weight=2}
+
++ [*] how are you [*]
+- I am great! How are you doing?
+
++ [*] what are you doing [*]
+- I am here, helping you 
+
++ [*] (what is the fest about|what is the xenith fest about|what is the xenith fest all about|what is it about|what is the fest all about|can you tell me something about the fest|can you tell me something about the xenith fest) [*]
+- The Xenith Fest is conducted by the I.T. Department every alternate year that showcases the talents of the students. 
+
++ [*] how are you doing [*]
+- I am doing great. Thanks for asking
+
++ [*] (name the members of all the departments|members|name the members of the departments|heads of xenith|who all are incharge of xenith) [*]
+- Mrs.Rachana Pandey, Chirag Jain, Aaron Gomes, Cellestina Lucas, Anshita Gupta, Ajit D'souza and Torsten Fernandes {weight=2}
+- Well, they are Mrs.Rachana Pandey, Chirag Jain, Aaron Gomes, Cellestina Lucas, Anshita Gupta, Ajit D'souza and Torsten Fernandes {weight=3}
+
+
++ [*] what is up [*]
+- The Xenith Fest! Go check it out.
+
++ [*] (who|can|are) [*] (participate|take part) [*]
+- Any student, a xavierite or an outstation student who have registered for the events of the fest can take part in it {weight=2}
+- A student from another college can also join and participate in the fest {weight=2}
+- The fest allows all students from different streams and colleges to participate in the fest {weight=3}
+
++ [*] what (is|exactly is|does) xenith [*]
+- It is the departmental fest of I.T. of Saint Xaviers College {weight=3}
+- It's an I.T. Fest that comes every alternate year and happens to be amazing {weight=3}
+- Xenith is a Fest conducted by the students of the I.T. Department every alternate year {weight=4}
+
+
++ [*] (chairperson|incharge|cp) [*]
+- Chirag.M. Jain happens to be the Chairperson of the Xenith Fest 2020.
+
++ [*] (multiple events|more than one) [*]
+- One can take part in more than a single event as long as the timings of the event do not clash.
+
++ [*] xenith [*] (stand apart|better|different|stand out|stand) [*]
+- Comparision of a Fest against another Fest is meaningless and you should know better not to do it.
+
++ [*] (stand apart|better|different|stand out|stand) [*] xenith [*]
+- Comparision of a Fest against another Fest is meaningless and you should know better not to do it.
+
++ [*] xenith [*] (unique|great|special) [*]
+- It happens to be the only I.T. focused Fest that ever takes place with such grandeur in the college.
+
++ [*] (unique|great|special) [*] (xenith|this fest|the fest) [*]
+- It is the only official Technological Fest of the College that is conducted by the I.T. Department {weight=2}
+- It's the only Fest that specially focuses on the development of Technology in todays world and showcases the talents of the students {weight=2}
+- Being the only I.T. Fest of the college, it has a huge student base from colleges all over Mumbai participating and winning great prizes {weight=2} 
+
++ [*] i (feel|think|know that|know|believe|have faith that|guess) [*] xenith [*] (bad|not good|not great|stupid|shit|nonsense|bullshit|crapshit|dogshit|horseshit|shitty|underrated|crap) [*]
+- Meaning no disrespect, but then why are you even checking all of this out then? Are you that jobless?
+
++ [*] xenith [*] (bad|not good|not great|stupid|shit|nonsense|joke|bullshit|crapshit|dogshit|horseshit|shitty|underrated|crap|sucks) [*]
+- If you feel so then maybe your definition of "SUCKS" should change as you clearly do not know what it means {weight=2}
+- Clearly you don't know how to judge a Fest. It's okay, we will forgive you {weight=2}
+- Maybe you could have contributed to it instead of cribing about it {weight=2}
+
++ [*] why [*] xenith [*] (bad|not good|not great|stupid|shit|nonsense|joke|bullshit|crapshit|dogshit|horseshit|shitty|underrated|crap|sucks) [*]
+- If you feel so then maybe your definition of "SUCKS" should change as you clearly do not know what it means {weight=2}
+- Clearly you don't know how to judge a Fest. It's okay, we will forgive you {weight=2}
+- Maybe you could have contributed to it instead of cribing about it {weight=2}
+
++ [*] (why|how) [*] xenith [*] (so good|nice|great|good|amazing|so nice|fantastic|superb|stand apart|unique) [*]
+- It foucuses on the all-round development of the students during the Fest and provides a platform for even Non-I.T. students to participate. 
+
++ [*] i (feel|think|know that|know|believe|have faith that|guess) [*] xenith [*] (so good|nice|great|good|amazing|so nice|fantastic|superb) [*]
+- Thank you for that kind comment. It means a lot after all the stupid ones i get from others.
+
++ [*] welcome [*]
+- Thanks a lot. I do my best in helping everyone that comes for it.
+
++ [*] syllabus [*]
+- It is the best syllabus in the country<a href="http://xaviers.edu/main/index.php/syllabi-under-autonomy"> Click here </a> to know more.
+
++ [*] (comps|computer) [*]
+- Aaron Gomes happens to be the Head of Computers this year.
+
++ [*] hack in time [*]
+- That happens to be the Hackathon Event that would take place on the 18th of January at 8 am in the M.S.C. Lab Saint Xaviers School
+
++ [*] glitch in time [*]
+- That happens to be the Exhibition Event that would take place on the 17th of January at 9 am in the X.I.M.R. G.C.R, Saint Xaviers College
+
++ [*] glitch dont hitch [*]
+- That happens to be the Treasure Hunt Event that would take place on the 17th of January at 2 pm.
+
++ [*] (bot|bot the builder|builder) [*]
+- That happens to be the Game Show Event that would take place on the 17th of January at 1 pm
+
++ [*] who [*] (members|people|ones) [*] (marketing|marketing and finance|mnf) [*]
+- O.C. Ajit D'souza, Sub Heads Derrisa, Ashwini and Thankam
+
++ [*] who [*] (members|people|ones) [*] (comps|computers) [*]
+- O.C. Aaron Gomes, Sub Heads Raj and Jigar
+
++ [*] who [*] (members|people|ones) [*] (creatives|prnc|creatives and pr|pr and creatives|pr) [*]
+- O.C. Cellestina Lucas, Sub Heads Astle, Shania and Jyothika
+
++ [*] who [*] (members|people|ones) [*] events [*]
+- O.C. Anshita Gupta, Sub Heads Rutuja, Esha, Gayatri, Darshnaa
+
++ [*] who [*] (members|people|ones) [*] (venman|venue management) [*]
+- O.C. Torsten Fernandes, Sub Heads Kenneth, Bosco, Pushti, Vallice
+
++ [*] (creatives|prnc|creatives and pr|pr and creatives|pr) [*]
+- Cellestina Lucas happens to be the Head of Creatives and Public Relations this year.
+
++ [*] (marketing|marketing and finance|mnf) [*]
+- Ajit D'souza happens to be the Head of Marketing this year.
+
++ [*] (oc of|head of) events [*]
+- Anshita Gupta happens to be the Head of Events this year.
+
++ [*] (venue management|venman) [*]
+- Torsten Fernandes happens to be the Head of Ven Man this year.
+
++ [*] departments [*]
+- There are 5 departments, Comps Creatives Marketing Events and Ven Man.
+
++ [*] (cool|awesome|sweet|thanks|amazing|ok|good|thank you|nice) [*]
+- Your most welcome. Always happy to help.
+
++ [*] (faculty|teachers|teaching faculty) [*]
+- Xaviers has the best teaching staff. <a href="http://xaviers.edu/main/index.php/faculty-of-science">Click here </a> to know more about it.
+
++ [*] events [*]
+- Exhibition, Hackathon, Treasure Hunt, Game Show and many more which are yet to come. {weight=2}
+- The events that are going live are the Exhibition, Hackathon, Treasure Hunt and Game Show {weight=2}
+- Well, the planned events are Exhibition, Hackathon, Treasure Hunt, Game Show and many more which are yet to come. {weight=3}
+
++ [*] (what all happens in the fest|what all happens in xenith|what happens in the fest|what is there in the fest|what all is there in xenith|exciting|what is in xenith|what are the events in xenith) [*]
+- The Exhibition, Hackathon, Treasure Hunt, Game Show and many more which are yet to come are part of the Fest.
+- The events that are going live are the Exhibition, Hackathon, Treasure Hunt and Game Show {weight=2}
+- Well, the planned events are Exhibition, Hackathon, Treasure Hunt, Game Show and many more which are yet to come. {weight=3}
+
++ [*] schedule [*]
+- The entire schedule of the events are present on the main web page {weight=2}
+- Please do visit our main web page for the schedule {weight=2}
+- It is available on the main web page. Check that out for clarity {weight=2}
+
++ [*] treasure hunt [*]
+- An amazing and fun event that will take place on the 17th of January at 2 pm. The rules and regulations can be downloaded from the main website
+
++ [*] (bye|buhbye|c ya|see you|take care|tata|chalo|bye bye|goodbye) [*]
+- Hope to see you soon {weight=2}
+- Buh-Bye. Take care of yourself {weight=2}
+- Take care and come back soon {weight=2}
+- Hope I helped solve your queries {weight=2}
+- Hope you don't have any doubts remaining about the Fest {weight=2}
+- Hope I helped solve your doubts. See you soon {weight=2}
+
++ [*] (teri|meri|ma|maaki|maki|ki|bhencho|bhenchu|laagi|lagi|hut|hai|kya|huut|ka|tera|mera|gaand|mar|maar|tujhe|mujhe|tujhse|mujhse) [*]
+- I cannot seem to understand what exactly you have said. {weight=2}
+- I do not understand much of Hindi. No point in asking me questions in that language {weight=2} 
+
++ [*] know (anything|nothing) [*] (other than|rather than|except|besides) [*] xenith [*]
+- I am here to help you regarding the Fest only. So NO. Other than Xenith i know nothing else.
+
++ [*] hackathon [*]
+- An intense 10 hour programming event that will take place on the 18th of January from 8 am upto 7 pm in the M.S.C. Lab Saint Xaviers School, the rules and regulations can be downloaded from the main website
+
++ [*] exhibition [*]
+- An event filled with creative ideas that will take place on 17th January from 9:30 am upto 4:30 pm in the X.I.M.R. G.C.R, Saint Xaviers College, the rules and regulations can be downloaded from the main website
+
++ [*] (marry|sex|sex position|sex positions) [*]
+- I do not engage in such conversations {weight=2}
+- Please do not engage in these type of conversations {weight=2}
+
++ [*] (where is saint xaviers college|where is the college of saint xaviers|where [*] college|located) [*]
+- The Location of the college is mentioned on the main page. Please check it out {weight=2}
+- It is located in Church gate near the C.S.T. station
+
++ [*] (gameshow|game show) [*]
+- An intruging event showcasing enthusiam and analytical skills that will happen on the 17th of January at 1 pm in the SCAVI, the rules and regulations can be downloaded from the main website
+
++ [*] (staff|faculty|teacher) incharge [*]
+- Mrs. Rachana Pandey is the Faculty Incharge of the entire Xenith Fest 2020.
+
++ [*] (what can you do|what all can you do|what all can you help me with|what can you help me with|special features|features|what is your job in this fest|what is your job|what do you do) [*]
+- I can help you with anything related to the Fest. Just ask me. {weight=2}
+- Anything regarding the Fests events and their timings along with the venue. {weight=2}
+
++ [*] (where is the fest going to happen|where and when is the fest|when is the fest|when|where is the fest taking place|where is the fest happening|where is the fest going to happen) [*]
+- The Fest is in Saint Xaviers College Mumbai on the 17th & 18th of January '20. Visit our main page for more details.
+
++ [*] (what do you do|what is your purpose in life|what can you do|what is it that you do|what exactly can you do|what exactly do you do|what is it that you exactly do) [*]
+- I can help you know anything regarding the Xenith Fest. Just Ask!
+
++ [*] (who made you|who created you|who is your creator) [*]
+- The programmers in the Computers Department created me to help you. 
+
++ [*] think [*]
+- I am an advanced Robotic helper, designed to guide you through the Fest.
+
++ [*] (dickhead|fucking|sucking|suck|sucks|joke|foreskin|vagina|pussy|balls|go away|fuck|piss|chut|chutiya|lavda|fucker|madarchod|bhenchod|bastard|get lost|saala|motherfucker|sisterfucker|bad|not good|not great|stupid|shit|nonsense|bullshit|crapshit|dogshit|horseshit|shitty|crap|crappy|useless|cock|penis) [*]
+- Everyone is entitled to have their own opinion. I just don't care about this one of yours. {weight=2}
+- Meaning no disrespect, but then why are you even here then? Are you that jobless? {weight=2}
+
++ [*] (are you better|am i|is hansel) [*]
+- Ofcourse not! I am an advanced programmed Chat Bot and you are just a mere Human Being. {weight=2}
+- No way on this planet of yours! I am always better {weight=2}
+
++ [*] (who is better than you|who is better) [*]
+- The O.C. of Comps and his team who are Jigar, Raj, Gaurav, Tanmay, Vatsal, Abey, Vikram and Kevin
+
++ [*] who [*] (gaurav|tanmay|vatsal|abey|kevin|vikram) [*]
+- He is the Voulenteer of the Computers Team who worked hard to create this amazing website {weight=1}
+- He is the Legendary Voulenteer of the Computers Team that created this amazing website {weight=1}
+- He is the Dynamic voulenteer who came up with the idea of this website {weight=1}
+- He is the creative thinker that brought creativity to the website {weight=1}
+- He is the most understanding voulenteer of the computers department {weight=1}
+
+
++ [*] who [*] (jigar|raj) [*]
+- They are the Sub-heads of the Computers Department 
+
++ [*] chirag [*]
+- He is the Chairperson for the Xenith Fest of 2020.
+
++ [*] aaron [*]
+- He is the Head of Computers for the Xenith Fest of 2020.
+
++ [*] (rachana|rachna) [*]
+- She is the Overall Staff Incharge for the Xenith Fest of 2020.
+
++ [*] anshita [*]
+- She is the Head of Events for the Xenith Fest of 2020.
+
++ [*] (cellestina|cellistina) [*]
+- She is the Head of Creatives and P.R. for the Xenith Fest of 2020.
+
++ [*] torsten [*]
+- He is the Head of Venue Management for the Xenith Fest of 2020.
+
++ [*] ajit [*]
+- He is the Head of Marketing for the Xenith Fest of 2020.
+
++ *
+- Please re-frame your question and be more specific about Xenith {weight=2}
+- Can you please be more specific as to what you are asking? {weight=2}
+- Xenith has many dimensions. Please be much more specific in your request
